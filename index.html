@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ball Dodge Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <canvas id="gameCanvas"></canvas>
+    <h1 id="score">Score: 0</h1>
+    <h1 id="lives">Lives: 3</h1>
+    <div id="startScreen" class="screen">
+      <h2>Pressione 'Espaço' para começar</h2>
+    </div>
+    <div id="gameOverScreen" class="screen hidden">
+      <h2>Game Over</h2>
+      <p>Pressione 'Espaço' para reiniciar</p>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>

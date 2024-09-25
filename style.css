@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+  }
+  
+  .game-container {
+    position: relative;
+  }
+  
+  canvas {
+    border: 2px solid #fff;
+    background-color: #000;
+  }
+  
+  #score, #lives {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+  }
+  
+  #score {
+    top: 10px;
+    left: 10px;
+  }
+  
+  #lives {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
